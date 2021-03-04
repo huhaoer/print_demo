@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.print {
+    width: 100%;
+    height: 100%;
+}
+.print-item {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.print-item > img {
+    width: 100%;
+    height: 200px;
+}
+.print-item > p {
+    color: rgb(15, 6, 6);
+    font-size: 20px;
+    text-align: center;
+}
+.print-operate {
+    display: flex;
+    justify-content: center;
+}
+.to-img {
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: cadetblue;
+    border-radius: 20px;
+    color: #fff;
+    margin: 0 auto;
+}
+.to-local {
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: cadetblue;
+    border-radius: 20px;
+    color: #fff;
+    margin: 0 auto;
+}
